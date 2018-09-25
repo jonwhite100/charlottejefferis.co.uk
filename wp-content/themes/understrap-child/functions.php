@@ -52,3 +52,11 @@ function vr_shrink_head() {
     </script>
     <?php
 }
+
+/**
+* BPM Add an addition menu location
+**/
+function register_my_menu() {
+    register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

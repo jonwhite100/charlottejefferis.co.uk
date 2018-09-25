@@ -7,8 +7,9 @@
 @import "assets/font-awesome"; // <------- Font Awesome Icon font
 @import "assets/underscores"; // <------- Underscores media styles
 
-// Import Lato font
+// Import Lato / Poppins font
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 // Any additional imported files //
 @import "theme/child_theme";  // <--------- Add your styles into this file
